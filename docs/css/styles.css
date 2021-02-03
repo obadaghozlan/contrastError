@@ -43,7 +43,7 @@ nav {
 .logo h1 {
     color: #C1C1C1;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -60,7 +60,7 @@ nav {
     align-items: center;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
     color: #C1C1C1;
@@ -95,7 +95,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 ul.breadcrumb li+li:before {
@@ -152,7 +152,7 @@ footer {
 
 .copyright, .footer-items > a {
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     color: #C1C1C1;
     padding: 20px;
@@ -167,6 +167,24 @@ footer {
     position: relative;
     bottom: 10px;
     left: 8px;
+}
+
+.menu-items-javascript-disabled {
+    display: none;
+}
+.menu-items-javascript-disabled li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-items-javascript-disabled li a{
+    align-items: center;
+    text-decoration: none;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #C1C1C1;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -221,6 +239,9 @@ footer {
         padding-right: unset;
         position: relative;
         right: 17px;
+    }
+    .menu-items-javascript-disabled {
+        display: unset;
     }
 }
 
@@ -315,16 +336,16 @@ footer {
     color: #FFFFFF;
 }
 
-.homepage-container .service-statement h1 {
+.homepage-container .service-statement h2 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 1.7rem;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
 .homepage-container .service-statement h4 {
     font-weight: lighter;
-    font-size: 14px;
+    font-size: .8rem;
     letter-spacing: 1px;
 }
 
@@ -338,26 +359,27 @@ footer {
     grid-template-columns: auto auto auto;
     column-gap: 20px;
     font-family: Verdana, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: BLACK;
 }
 
 .homepage-container .service1, .homepage-container .service2, .homepage-container .service3 {
     padding: 15px;
     text-align: center;
-    background-color: #36827F;
+    background-color: #ffffff;
+    /*background-color: #36827F;*/
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.homepage-container .services h1 {
+.homepage-container .services h3 {
     height: 100px;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
 .homepage-container .services p {
     padding-top: 40px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: lighter;
     letter-spacing: 1px;
 }
@@ -383,9 +405,9 @@ footer {
     text-align: center;
 }
 
-.homepage-container .video-container h1, .homepage-container .sample-products h1 {
+.homepage-container .video-container h2, .homepage-container .sample-products h2 {
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -428,7 +450,8 @@ footer {
 
 .homepage-container .product1, .homepage-container .product2 {
     padding: 20px;
-    background-color: #36827F;
+    background-color: #ffffff;
+    /*background-color: #36827F;*/
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -490,10 +513,8 @@ footer {
 
 .products-section {
     padding: 10rem 0;
-    background-color: #292A28;
     display: flex;
     justify-content: space-around;
-    /*border: red 1px solid;*/
 }
 
 .products-container{
@@ -550,11 +571,11 @@ footer {
     border: none;
     outline: 0;
     padding: 12px;
-    background-color: skyblue;
+    background-color: WHITE;
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .products-container .card button:hover {
@@ -569,13 +590,13 @@ footer {
     margin: 2rem 0;
     box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
     align-items: center;
-    background-color: skyblue;
+    background-color: WHITE;
     overflow: hidden;
     min-height: 500px;
     max-height: 500px;
 }
 
-.products-container .card h1{
+.products-container .card h3{
     font-size: 1.5rem;
     color: #333;
     margin-top: 1.5rem;
@@ -654,7 +675,7 @@ footer {
     position: relative;
     text-align: center;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -667,7 +688,7 @@ footer {
     position: relative;
     text-align: center;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 4px;
     color: #C1C1C1;
@@ -844,7 +865,7 @@ footer {
     text-decoration: none;
     padding-top: 50px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -872,7 +893,7 @@ footer {
     text-decoration: none;
     padding-top: 100px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -888,7 +909,7 @@ footer {
     text-align: left;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -920,7 +941,7 @@ footer {
     text-decoration: none;
     padding-top: 200px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -934,7 +955,7 @@ footer {
     text-align: left;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -971,7 +992,7 @@ footer {
     text-decoration: none;
     padding-top: 200px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -987,7 +1008,7 @@ footer {
     text-align: left;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -1086,13 +1107,13 @@ footer {
     color: #C1C1C1;
 }
 
-.account-container .login-input-container h1 {
-    font-size: 28px;
+.account-container .login-input-container h2 {
+    font-size: 1.75rem;
     letter-spacing: 3px;
 }
 
 .account-container .forget-statement {
-    font-size: 12px;
+    font-size: .75rem;
     letter-spacing: 1px;
 }
 
@@ -1150,7 +1171,7 @@ footer {
     outline: none;
 }
 
-.account-container .login-input-container h1 {
+.account-container .login-input-container h2 {
     margin-top: 60px;
 }
 
@@ -1158,7 +1179,7 @@ footer {
     margin-bottom: 60px;
 }
 
-.account-container .login-input-container h1, .account-container .email, .account-container .password,
+.account-container .login-input-container h2, .account-container .email, .account-container .password,
 .account-container .submit-button, .account-container .forget-statement {
     padding: 10px 100px 10px 0px;
 }
@@ -1445,12 +1466,12 @@ footer {
     object-fit: cover;
 }
 .const-section .button1{
-    background-color: #45e19f;
+    background-color: #204f3a;
     border: none;
     color: white;
     padding: 10px 10px;
     display: inline-block;
-    font-size: 15px;
+    font-size: .9rem;
     margin: 15px 15px;
     cursor: pointer;
 }
@@ -1538,7 +1559,7 @@ footer {
 .contact-us-grid-container .statement-shot {
     grid-area: row2;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -1546,7 +1567,7 @@ footer {
 .contact-us-grid-container .statement-contact {
     grid-area: row3;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     letter-spacing: 1px;
 }
 
@@ -1587,7 +1608,7 @@ footer {
 .contact-us-grid-container input[type=text], select {
     width: 100%;
     height: 70%;
-    background-color: #ffffff;
+    background-color: #C1C1C1;
     display: inline-block;
     border: 2px solid #C1C1C1;
     box-sizing: border-box;
@@ -1672,7 +1693,7 @@ footer {
     border: 2px solid #36827F;
     box-sizing: border-box;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 2px;
     color: #120000;
 }
@@ -1717,13 +1738,13 @@ footer {
 .contact-us-grid-container .call-us {
     grid-area: row7;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     letter-spacing: 4px;
 }
 
 .contact-us-grid-container .tel1, .contact-us-grid-container .tel2, .contact-us-grid-container .tel3 {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -1746,7 +1767,7 @@ footer {
     text-decoration: none;
     padding-top: 50px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -1777,14 +1798,14 @@ footer {
 .contact-us-grid-container .opening-hours {
     grid-area: row13;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
 .contact-us-grid-container .opening-hours1, .contact-us-grid-container .opening-hours2 {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -1823,7 +1844,6 @@ footer {
 
 .corporate-team-section {
     padding: 10rem 0;
-    background-color: #292A28;
     display: flex;
     justify-content: space-around;
     /*border: red 1px solid;*/
@@ -1893,7 +1913,7 @@ footer {
     /*margin-left: 125px;*/
 }
 
-.corporate-team-container .card h1{
+.corporate-team-container .card h3{
     font-size: 2.5rem;
     color: #333;
     margin-top: 1.5rem;
@@ -2072,7 +2092,7 @@ footer {
     text-decoration: none;
     padding-top: 50px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -2084,7 +2104,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -2219,7 +2239,7 @@ footer {
     box-sizing: border-box;
     cursor: pointer;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 2px;
     color: #120000;
 }
@@ -2250,7 +2270,6 @@ footer {
 
 .services-section{
     padding: 5rem 0;
-    background-color: #292A28;
     width: 100%;
 
 
@@ -2271,7 +2290,7 @@ footer {
     letter-spacing: 2px;
 }
 
-.services-container h1 {
+.services-container h3 {
     font-size: 3rem;
     color: #fff;
     letter-spacing: 1px;
@@ -2319,7 +2338,7 @@ footer {
     /* box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2); */
 }
 
-.services-container .card h1{
+.services-container .card h3{
     height: 100px;
     font-size: 2rem;
     color: #333;
@@ -2397,7 +2416,6 @@ footer {
 
 .vest-section{
     padding: 10rem 0;
-    background-color: #292A28;
     display: flex;
     justify-content: space-around;
     /*border: red 1px solid;*/
@@ -2410,7 +2428,7 @@ footer {
     text-align: center;
     color: #C1C1C1;
     position: relative;
-    padding-bottom: 100px;
+
 }
 
 .vest-container .heading::after{
@@ -2522,6 +2540,7 @@ footer {
 label {
     position: absolute;
     visibility: hidden;
+    color: white;
 }
 
 input[type=submit]:focus{
